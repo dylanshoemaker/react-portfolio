@@ -1,26 +1,25 @@
-import React from 'react';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import "./App.css"
 import Contact from "./components/Contact";
 import Work from "./components/Work";
 import Resume from "./components/Resume";
-function App() {
- 
 
+function App() {
   return (
-    <div>
-      <main>
-          <Header/>
-          
-          <Hero/>
-          <About/>
-          <Work/>
-          <Contact/>
-          <Resume/>
-      </main>
-    </div>
+    <Router>
+      <Header />
+      <Hero />
+      <Switch>
+        <Route path="/about" component={About} />
+        <Route path="/work" component={Work} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/resume" component={Resume} />
+      </Switch>
+    </Router>
   );
 }
 
