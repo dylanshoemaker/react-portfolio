@@ -1,13 +1,16 @@
 import React from "react";
 
+
 const Hero = () => {
+
   return (
-    <section class="hero">
-      <div class="hero-image">
-      <img src={process.env.PUBLIC_URL + '/images/profile-final.jpg'} 
+    <section className="hero" alt="hero">
+
+      <div className="hero-image">
+      <img src={require("../../assets/images/profile-final.jpg").default}
       alt={"headshot"}/>
       </div>
-      <div class="hero-text">
+      <div className="hero-text">
         <h3>
           <a href="https://www.youtube.com/embed/xvFZjo5PgG0?autoplay=1">
             Have a look around!
