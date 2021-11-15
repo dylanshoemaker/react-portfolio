@@ -23,7 +23,7 @@ const Header = () => {
                     <a href="#contact-me">Contact Me</a>
                 </li>
                 <li>
-                    <a href="./assets/resume/dylan-shoemaker-resume.pdf">Resume</a>
+                    <a href="../../assets/resume/dylan-shoemaker-resume.pdf">Resume</a>
                 </li>
             </ul>
         </nav>
