@@ -28,6 +28,13 @@ export default function Resume() {
           <Page key={`page_${index + 1}`} pageNumber={index + 1} />
         ))}
       </Document>
+      <div className="hero-text">
+        <h3>
+          <a href="https://dylanshoemaker.github.io/dylan-shoemaker-portfolio/assets/resume/dylan-shoemaker-resume.pdf">
+            Click Me to be taken to web hosted pdf
+          </a> 
+        </h3>
+      </div>
     </div>
   );
 }
