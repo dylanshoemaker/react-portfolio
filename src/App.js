@@ -4,7 +4,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Work from "./components/Work";
 import Resume from "./components/Resume";
 
@@ -16,9 +16,10 @@ function App() {
       <Switch>
         <Route path="/about" component={About} />
         <Route path="/work" component={Work} />
-        <Route path="/contact" component={Contact} />
+        {/* <Route path="/contact" component={Contact} /> */}
         <Route path="/resume" component={Resume} />
       </Switch>
+      <Footer/>
     </Router>
   );
 }

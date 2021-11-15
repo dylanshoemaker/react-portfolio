@@ -1,16 +1,15 @@
 import React from "react";
 
 
-function Contact() {
+function Footer() {
   
   return (
     <section id="contact-me" class="contact-me">
       <div class="step">
         <h2>
-          <span class="full-text">Contact Me</span>
-          <span class="short-text">Contact Me</span>
+
         </h2>
-        <div class="aside">
+        <div>
           <nav>
             <ul>
               <li>
@@ -37,4 +36,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Footer;
