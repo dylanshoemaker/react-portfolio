@@ -5,9 +5,9 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Footer from "./components/Footer";
-import Work from "./components/Work";
+import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
-
+import Contact from "./components/Contact";
 function App() {
   return (
     <Router>
@@ -15,8 +15,8 @@ function App() {
       <Hero />
       <Switch>
         <Route path="/about" component={About} />
-        <Route path="/work" component={Work} />
-        {/* <Route path="/contact" component={Contact} /> */}
+        <Route path="/Portfolio" component={Portfolio} />
+        <Route path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
       </Switch>
       <Footer/>

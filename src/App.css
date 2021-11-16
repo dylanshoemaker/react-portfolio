@@ -121,7 +121,18 @@ header nav ul li a {
   background-position: 20%;
   min-height: 200px;
 }
-
+.bighero {
+  flex-wrap:wrap;
+  flex-direction: row;
+  padding: 20px 35px;
+  display: inline-flex;
+  justify-content:space-around;
+  align-items: flex-start;
+  max-width: 48%;
+  margin: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .hero h3 {
   color:var(--secondary-color);
   font-size: 26px;
@@ -202,25 +213,14 @@ background: #e1e1e1;
   flex: 12 33%;
 }
 
-.game-stork , .horiseon , .jedkh, .group {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  position: relative;
-  opacity: .7;
-  justify-content: space-between;
-  margin: 1vw 1vw 1vw 1vw;
-}
 
-.game-stork img {
+
+.game-stork {
  
   height: auto;
   min-height: auto;
   max-height: 100%; /* height of container */
-  width: 999vw;
-  min-width: 100%;
-  max-width: 100%;
-  object-fit: cover;
+  max-width: 40%;
   border: 5px solid var(--tertiary-color);
 }
 
@@ -273,11 +273,13 @@ background: #e1e1e1;
 }
 .tag {
   display: block;
-  position: absolute;
+  position: relative;
   align-items: center;
   bottom: 20%;
-  background-color: var(--tertiary-color);
+  background-color: #39a6b244;
   opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tag p1 {
@@ -297,9 +299,9 @@ footer nav ul {
   padding-bottom: 25px;
 }
 
-footer nav ul li a {
+.step nav ul li a {
   font-weight: bolder;
-  font-size: 1.5vw;
+  font-size: 3vw;
   color: var(--primary-color);
   border-bottom: 2px solid var(--primary-color);
   padding-bottom: 2px;
@@ -310,6 +312,14 @@ footer nav ul li a {
 }
 /*footer start*/
 .short-text { display: none; }  /* for changing how the h3's appear after the page breaks at 980px */
+
+
+
+.tagContainer img {
+  min-width:100%;
+
+}
+
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -341,7 +351,7 @@ footer nav ul li a {
       justify-content: center;
   }
   
-  header nav ul li a {
+  header nav ul a {
       font-size: 5.0vw;
       display: flex; 
 
@@ -359,7 +369,7 @@ footer nav ul li a {
   .hero h3 {
       margin-right: 0px;
   }
-
+  
   .step {
       display: block;
       text-align: center;
@@ -508,7 +518,9 @@ footer nav ul li a {
       font-size: 4vw;
       padding-bottom: 0px;
   }
-
+  .bighero {
+    max-width: 100%;
+  }
   footer nav ul li:nth-child(2) {
       order: -1;
   }
