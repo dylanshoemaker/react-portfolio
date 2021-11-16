@@ -14,6 +14,7 @@ function App() {
       <Header />
       <Hero />
       <Switch>
+        <Route exact path='/react-portfolio' component={About}/>
         <Route path="/about" component={About} />
         <Route path="/Portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
