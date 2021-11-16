@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c0b856a5.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.2fbb07bc.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.2fbb07bc.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.f11a2efb.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.f11a2efb.js.map",
+    "static/css/2.075d1af1.chunk.css": "/react-portfolio/static/css/2.075d1af1.chunk.css",
+    "static/js/2.9e5b1484.chunk.js": "/react-portfolio/static/js/2.9e5b1484.chunk.js",
+    "static/js/2.9e5b1484.chunk.js.map": "/react-portfolio/static/js/2.9e5b1484.chunk.js.map",
+    "3bc629d5f743a1772f7a775c5f5fb0c1.js": "/react-portfolio/3bc629d5f743a1772f7a775c5f5fb0c1.js",
+    "3bc629d5f743a1772f7a775c5f5fb0c1.js.LICENSE.txt": "/react-portfolio/3bc629d5f743a1772f7a775c5f5fb0c1.js.LICENSE.txt",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.075d1af1.chunk.css.map": "/react-portfolio/static/css/2.075d1af1.chunk.css.map",
+    "static/css/main.c0b856a5.chunk.css.map": "/react-portfolio/static/css/main.c0b856a5.chunk.css.map",
+    "static/js/2.9e5b1484.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.9e5b1484.chunk.js.LICENSE.txt",
+    "static/media/coffee.bd810f70.jpg": "/react-portfolio/static/media/coffee.bd810f70.jpg",
+    "static/media/dnd.cbb5df7d.png": "/react-portfolio/static/media/dnd.cbb5df7d.png",
+    "static/media/express.fd1f63a2.png": "/react-portfolio/static/media/express.fd1f63a2.png",
+    "static/media/game-go-image.d53d988c.png": "/react-portfolio/static/media/game-go-image.d53d988c.png",
+    "static/media/jedkh2.510b435b.PNG": "/react-portfolio/static/media/jedkh2.510b435b.PNG",
+    "static/media/profile-final.jpg": "/react-portfolio/static/media/profile-final.04c77ffb.jpg",
+    "static/media/show-me-what-you-got-walkthrough.5a51728c.gif": "/react-portfolio/static/media/show-me-what-you-got-walkthrough.5a51728c.gif",
+    "static/media/App.css": "/react-portfolio/static/media/wavy.764a089f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f11a2efb.js",
+    "static/css/2.075d1af1.chunk.css",
+    "static/js/2.9e5b1484.chunk.js",
+    "static/css/main.c0b856a5.chunk.css",
+    "static/js/main.2fbb07bc.chunk.js"
+  ]
+}
