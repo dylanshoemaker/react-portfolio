@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c0b856a5.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.d8040661.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.d8040661.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.6a1dc0b3.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.6a1dc0b3.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.f11a2efb.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.f11a2efb.js.map",
     "static/css/2.075d1af1.chunk.css": "/react-portfolio/static/css/2.075d1af1.chunk.css",
@@ -19,6 +19,7 @@
     "static/media/express.fd1f63a2.png": "/react-portfolio/static/media/express.fd1f63a2.png",
     "static/media/game-go-image.d53d988c.png": "/react-portfolio/static/media/game-go-image.d53d988c.png",
     "static/media/jedkh2.510b435b.PNG": "/react-portfolio/static/media/jedkh2.510b435b.PNG",
+    "static/media/landingpage-screenshot.807e98fd.JPG": "/react-portfolio/static/media/landingpage-screenshot.807e98fd.JPG",
     "static/media/profile-final.jpg": "/react-portfolio/static/media/profile-final.04c77ffb.jpg",
     "static/media/show-me-what-you-got-walkthrough.5a51728c.gif": "/react-portfolio/static/media/show-me-what-you-got-walkthrough.5a51728c.gif",
     "static/media/App.css": "/react-portfolio/static/media/wavy.764a089f.jpg"
@@ -28,6 +29,6 @@
     "static/css/2.075d1af1.chunk.css",
     "static/js/2.9e5b1484.chunk.js",
     "static/css/main.c0b856a5.chunk.css",
-    "static/js/main.d8040661.chunk.js"
+    "static/js/main.6a1dc0b3.chunk.js"
   ]
 }
