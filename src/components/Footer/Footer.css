@@ -1,0 +1,16 @@
+.font-awesome {
+  color: ghostwhite;
+  font-size: 30px;
+  opacity: 0.6;
+}
+.font-awesome:hover {
+  opacity: 1;
+
+}
+
+.brandon {
+  opacity: 0.2;
+}
+.brandon:hover {
+  opacity: 1;
+}
