@@ -1,10 +1,10 @@
-import gameGo from "../assets/images/game-go-image.png"
-import dNd from "../assets/images/dnd.png"
-import coFeFe from "../assets/images/coffee.jpg"
-import jedkh from "../assets/images/jedkh2.PNG"
-import exPress from "../assets/images/express.png"
-import pickleRick from "../assets/images/show-me-what-you-got-walkthrough.gif"
-import birdPerson from "../assets/images/landingpage-screenshot.JPG"
+import gameGo from "../assets/images/projects/game-go-image.png"
+import dNd from "../assets/images/projects/dnd.png"
+import coFeFe from "../assets/images/projects/coffee.jpg"
+import jedkh from "../assets/images/projects/jedkh2.PNG"
+import exPress from "../assets/images/projects/express.png"
+import pickleRick from "../assets/images/projects/show-me-what-you-got-walkthrough.gif"
+import birdPerson from "../assets/images/projects/landingpage-screenshot.JPG"
 const projectData = [
   {
     name: "Game Stork Group Project",
