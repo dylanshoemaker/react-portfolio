@@ -1,40 +1,41 @@
 import React from "react";
 import projectData from "../../data/projectData";
 
-const Project = (props) => {
+const Project = () => {
   return (
     <>
       {projectData.map((project, i) => (
-        <div className="bighero">
-          <div className="tagContainer">
+        <div className="column is-4">
+          <div className="acontent">
+            <div className="acontent-overlay"></div>
             <img
+              className="acontent-image is-rounded"
+              key={i}
               alt={project.name}
               src={project.screenShot}
-              className="game-stork"
             />
-            <div className="tag ">
+            <div className="acontent-details fadeIn-bottom ">
               <h3>{project.name}</h3>
               <a
-                className="tag"
+                className="project-link"
                 target="_blank"
                 rel="noreferrer"
                 href={project.gitHubLink}
               >
-                Project Repository
+                View Project
               </a>{" "}
               <br />
               <a
-                className="tag"
+                className="project-link"
                 target="_blank"
                 rel="noreferrer"
                 href={project.liveLink}
               >
-                Demo of Application
+                View Demo
               </a>
             </div>
           </div>
         </div>
-    
       ))}
     </>
   );
