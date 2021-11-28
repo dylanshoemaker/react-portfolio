@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "./Header.css";
 const Header = () => {
   return (
     <nav className="navbar" role="navigation" aria-label="main navigation">
@@ -19,9 +19,6 @@ const Header = () => {
           </Link>
           <Link to="/portfolio" className="navbar-item">
             Portfolio
-          </Link>
-          <Link to="/contact" className="navbar-item">
-            Contact Me
           </Link>
           <Link to="/resume" className="navbar-item">
             Resume
