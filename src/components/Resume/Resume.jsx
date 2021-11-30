@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-
+import "./Resume.css"
 const options = {
   cMapUrl: "cmaps/",
   cMapPacked: true,
@@ -19,7 +19,9 @@ export default function Resume() {
 
   return (
     <div className="Resume">
+      
       <Document
+        className="document"
         file={file}
         onLoadSuccess={onDocumentLoadSuccess}
         options={options}
@@ -29,9 +31,9 @@ export default function Resume() {
         ))}
       </Document>
       <div className="hero-text">
-        <h3>
+        <h3 className="button thisIsTheWay">
           <a href="https://dylanshoemaker.github.io/dylan-shoemaker-portfolio/assets/resume/dylan-shoemaker-resume.pdf">
-            Click Me to be taken to web hosted pdf
+            Download Resume&emsp;<i className="fad fa-download fa-lg"></i>
           </a> 
         </h3>
       </div>
