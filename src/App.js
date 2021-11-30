@@ -9,7 +9,7 @@ import Homepage from "./components/Homepage";
 import Header from "./components/Header";
 function App() {
   return (
-    <Router>
+    <Router basename="/react-portfolio">
       <Header/>
       <Switch>
         <Route exact path='/' component={Homepage}/>
