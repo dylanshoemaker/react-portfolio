@@ -11,7 +11,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer pt-6 pb-6">
-      <div class="content has-text-centered pt-2">
+      <div className="content has-text-centered pt-2">
         <div className="is-divider"></div>
         <div className="columns about-links">
           <div className="column">
