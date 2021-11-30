@@ -1,57 +1,71 @@
+import html from '../assets/images/icons/skills/html.svg'
+
+import css from '../assets/images/icons/skills/css.svg';
+import bootstrap from '../assets/images/icons/skills/bootstrap.svg';
+
+import javascript from '../assets/images/icons/skills/javascript.svg';
+import react from '../assets/images/icons/skills/react.svg';
+import nodeEl from '../assets/images/icons/skills/node.svg';
+import express from '../assets/images/icons/skills/express.svg';
+import handlebars from '../assets/images/icons/skills/handlebars.svg';
+import mongodb from '../assets/images/icons/skills/mongodb.svg';
+import mysql from '../assets/images/icons/skills/mysql.svg';
+import git from '../assets/images/icons/skills/git.svg';
+
 const skillsArr = [
   {
       name: 'html',
-      src: '../assets/images/icons/skills/html.svg',
+      src: html,
       alt: 'HTML 5 Icon',
   },
   {
       name: 'css',
-      src: '../assets/images/icons/skills/css.svg',
+      src: css,
       alt: 'CSS Icon',
   },
   {
       name: 'bootstrap',
-      src: '../assets/images/icons/skills/bootstrap.svg',
+      src: bootstrap,
       alt: 'Bootstrap Icon',
   },
   {
       name: 'javascript',
-      src: '../assets/images/icons/skills/javascript.svg',
+      src: javascript,
       alt: 'JavaScript Icon',
   },
   {
       name: 'react',
-      src: '../assets/images/icons/skills/react.svg',
+      src: react,
       alt: 'React Icon',
   },
   {
       name: 'node',
-      src: '../assets/images/icons/skills/node.svg',
+      src: nodeEl,
       alt: 'NodeJS Icon',
   },
   {
       name: 'express',
-      src: '../assets/images/icons/skills/express.svg',
+      src: express,
       alt: 'Express Icon',
   },
   {
       name: 'handlebars',
-      src: '../assets/images/icons/skills/handlebars.svg',
+      src: handlebars,
       alt: 'Handlebars Icon',
   },
   {
       name: 'mongodb',
-      src: '../assets/images/icons/skills/mongodb.svg',
+      src: mongodb,
       alt: 'MongoDB Icon',
   },
   {
       name: 'mysql',
-      src: '../assets/images/icons/skills/mysql.svg',
+      src: mysql,
       alt: 'MySQL Icon',
   },
   {
       name: 'git',
-      src: '../assets/images/icons/skills/git.svg',
+      src: git,
       alt: 'Git Icon',
   },
 ]

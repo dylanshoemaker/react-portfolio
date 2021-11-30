@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import Homepage from "./components/Homepage";
 import Header from "./components/Header";
+import Icons from './components/Icons';
 function App() {
   return (
     <Router basename="/react-portfolio">
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Portfolio" component={Portfolio} />
         <Route path="/resume" component={Resume} />
       </Switch>
+      <Icons />
       <Footer/>
     </Router>
   );
