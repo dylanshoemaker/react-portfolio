@@ -10,11 +10,17 @@
 
 .Icons-icon {
   width: 6rem;
-  padding: .8rem;
+  padding: 0.8rem;
   margin: auto;
   filter: brightness(0.3) invert(0.3);
   /* flex-basis: 10%; */
 }
-  .Icons-icon:hover {
-      filter: brightness(1) invert(0);
+.Icons-icon:hover {
+  filter: brightness(1) invert(0);
+}
+
+@media screen and (max-width: 650px) {
+  .Icons {
+    display: none;
   }
+}
