@@ -34,11 +34,7 @@
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
   }
   
-  @media (max-width: 599px) {
-    .hero .hero-foot {
-      display: none;
-    }
-  }
+  
   
   .hero .hero-foot .hero-foot--wrapper {
     margin: 7px auto;
@@ -75,4 +71,21 @@
 
   .hero.is-primary {
     margin: 0 0 2rem 0;
+  }
+
+  @media (max-width: 1060px) {
+    .hero .subtitle {
+      color: black;
+    }
+ 
+  }
+  
+  @media (max-width: 599px) {
+    .hero .hero-foot {
+      display: none;
+    }
+    .subtitle {
+      color: black;
+    }
+    
   }
