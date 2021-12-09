@@ -19,8 +19,17 @@
   filter: brightness(1) invert(0);
 }
 
-@media screen and (max-width: 766px) {
-  .Icons {
-    display: none;
+@media screen and (max-width: 768px) {
+  .Icons-icon {
+    width: 3rem;
+    padding: 0.2rem;
   }
+ 
+}
+@media screen and (max-width: 575px) {
+  .Icons-icon {
+    width: 3rem;
+    padding: 0.2rem;
+  }
+ 
 }
