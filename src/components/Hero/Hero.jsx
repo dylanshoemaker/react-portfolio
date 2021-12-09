@@ -10,7 +10,7 @@ function Hero() {
           <div className="container has-text-centered">
             <h1 className="subtitle profession is-size-4-mobile">Hello there, I'm</h1>
             <h2 className="title is-size-4-mobile">Dylan</h2>
-            <h1 className="subtitle profession is-size-4-mobile">
+            <h1 className="subtitle profession is-size-4-mobile learner">
               A lifelong learner who likes to code
             </h1>
             <div className="full">
