@@ -15,8 +15,8 @@ const projectData = [
   },
   {
     name: "Game Stork Group Project",
-    gitHubLink: "https://github.com/ewalker518/game-go",
-    liveLink: "https://ewalker518.github.io/game-stork/",
+    gitHubLink: "https://github.com/dylanshoemaker/game-go",
+    liveLink: "https://dylanshoemaker.github.io/game-go/",
     screenShot: gameGo,
 
   },
