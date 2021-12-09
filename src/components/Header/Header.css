@@ -1,3 +1,10 @@
 .navbar {
   border-bottom: solid 4px #39afe0;
 }
+/* @media screen and (max-width: 1024px) {
+  .navbar-end {
+
+    display: none;
+    
+  }
+} */
