@@ -1,4 +1,4 @@
-import gameGo from "../assets/images/projects/game-go-image.png"
+import gameStork from "../assets/images/projects/game-go-image.png"
 import dNd from "../assets/images/projects/dnd.png"
 import coFeFe from "../assets/images/projects/coffee.jpg"
 import jedkh from "../assets/images/projects/jedkh2.PNG"
@@ -15,9 +15,9 @@ const projectData = [
   },
   {
     name: "Game Stork Group Project",
-    gitHubLink: "https://github.com/dylanshoemaker/game-go",
-    liveLink: "https://dylanshoemaker.github.io/game-go/",
-    screenShot: gameGo,
+    gitHubLink: "https://github.com/dylanshoemaker/game-stork",
+    liveLink: "https://dylanshoemaker.github.io/game-stork/",
+    screenShot: gameStork,
 
   },
   {
