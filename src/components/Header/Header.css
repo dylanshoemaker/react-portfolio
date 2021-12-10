@@ -1,5 +1,6 @@
 .navbar {
   border-bottom: solid 4px #39afe0;
+  background-color: #a9bbc8;
 }
 /* @media screen and (max-width: 1024px) {
   .navbar-end {
