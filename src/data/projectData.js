@@ -8,7 +8,7 @@ import birdPerson from "../assets/images/projects/landingpage-screenshot.JPG"
 
 const projectData = [
   {
-    name: "Salonme",
+    name: "Salonme Group Project",
     gitHubLink: "https://github.com/dylanshoemaker/salonme",
     liveLink: "https://salonme.herokuapp.com/",
     screenShot: birdPerson,
