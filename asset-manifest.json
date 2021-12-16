@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c91e0ddc.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.61e7ce3a.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.61e7ce3a.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.dd0ee4d2.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.dd0ee4d2.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.f11a2efb.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.f11a2efb.js.map",
     "static/css/2.075d1af1.chunk.css": "/react-portfolio/static/css/2.075d1af1.chunk.css",
@@ -17,7 +17,6 @@
     "static/media/bootstrap.98585727.svg": "/react-portfolio/static/media/bootstrap.98585727.svg",
     "static/media/coffee.bd810f70.jpg": "/react-portfolio/static/media/coffee.bd810f70.jpg",
     "static/media/css.38311cee.svg": "/react-portfolio/static/media/css.38311cee.svg",
-    "static/media/dnd.cbb5df7d.png": "/react-portfolio/static/media/dnd.cbb5df7d.png",
     "static/media/express.415f9b1f.svg": "/react-portfolio/static/media/express.415f9b1f.svg",
     "static/media/express.fd1f63a2.png": "/react-portfolio/static/media/express.fd1f63a2.png",
     "static/media/game-go-image.d53d988c.png": "/react-portfolio/static/media/game-go-image.d53d988c.png",
@@ -40,6 +39,6 @@
     "static/css/2.075d1af1.chunk.css",
     "static/js/2.e35aee6e.chunk.js",
     "static/css/main.c91e0ddc.chunk.css",
-    "static/js/main.61e7ce3a.chunk.js"
+    "static/js/main.dd0ee4d2.chunk.js"
   ]
 }
