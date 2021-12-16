@@ -1,5 +1,5 @@
 import gameStork from "../assets/images/projects/game-go-image.png"
-import dNd from "../assets/images/projects/dnd.png"
+// import dNd from "../assets/images/projects/dnd.png"
 import coFeFe from "../assets/images/projects/coffee.jpg"
 import jedkh from "../assets/images/projects/jedkh2.PNG"
 import exPress from "../assets/images/projects/express.png"
@@ -20,13 +20,13 @@ const projectData = [
     screenShot: gameStork,
 
   },
-  {
-    name: "DND Character Sheet Manager Group Project",
-    gitHubLink: "https://github.com/dylanshoemaker/dnd-manager",
-    liveLink: "https://dnd-character-sheet-manager.herokuapp.com/",
-    screenShot: dNd,
+  // {
+  //   name: "DND Character Sheet Manager Group Project",
+  //   gitHubLink: "https://github.com/dylanshoemaker/dnd-manager",
+  //   liveLink: "https://dnd-character-sheet-manager.herokuapp.com/",
+  //   screenShot: dNd,
  
-  },
+  // },
   {
     name: "Coffee is the Answer",
     gitHubLink: "https://github.com/dylanshoemaker/coffee-is-the-answer",
