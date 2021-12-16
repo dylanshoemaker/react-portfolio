@@ -1,10 +1,60 @@
-.profile-picture img {
-  width: 50%;
-  height: auto;
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../assets/images/hero-background.JPG);
+  background-attachment: scroll;
+  background-size: cover;
+  color: black;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-family: "Poppins", sans-serif;
 }
-
-.profile-picture img {
-  border-radius: 60px;
-  width: 50%;
-  height: auto;
+.has-vertically-aligned-content {
+  background-size: cover;
+  background-color: whitesmoke;
+  align-self: center;
+ 
+}
+.is-rounded img {
+  padding-top: 5vw;
+}
+@media screen and (max-width: 768px) {
+  .is-rounded {
+    text-align: center;
+  }
+  .is-rounded img {
+    border-radius: 60px;
+    width: 50vw;
+    height: auto;
+  }
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../assets/images/hero-background.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16),
+      0 3px 6px rgba(0, 0, 0, 0.23);
+    font-family: "Poppins", sans-serif;
+  }
+  .has-vertically-aligned-content {
+    background-size: cover;
+    background-color: whitesmoke;
+    display: block;
+    margin-bottom: 10vw;
+  }
+}
+@media screen and (max-height: 768px) {
+  .is-rounded {
+    text-align: center;
+  }
+  .is-rounded img {
+    border-radius: 60px;
+    width: 50vw;
+    height: auto;
+  }
 }

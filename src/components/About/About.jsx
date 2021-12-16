@@ -7,16 +7,23 @@ function About() {
 
   return (
     <section className="about-me">
-
       <div className="section-light " id="about-me">
         <div className="container">
           <div className="column is-12 about-me">
             <h1 className="title has-text-centered section-title">About Me</h1>
           </div>
           <div className="columns is-multiline">
+          <div className="column is-6 left-image " data-aos="fade-right">
+              <div className="is-rounded">
+                <img
+                  src={require("../../assets/images/profile-final.jpg").default}
+                  alt={"headshot"}
+                />
+              </div>
+            </div>
             <div
               className="column is-6 has-vertically-aligned-content"
-              data-aos="fade-right"
+              data-aos="fade-left"
             >
               <p className="is-larger">
                 &emsp;&emsp;
@@ -39,14 +46,6 @@ function About() {
                 problem.
               </p>
               <br />
-            </div>
-            <div className="column is-6 right-image " data-aos="fade-left">
-              <div className="is-rounded">
-                <img
-                  src={require("../../assets/images/profile-final.jpg").default}
-                  alt={"headshot"}
-                />
-              </div>
             </div>
           </div>
         </div>
