@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import "./Resume.css"
+import "./Resume.css";
 const options = {
   cMapUrl: "cmaps/",
   cMapPacked: true,
@@ -18,8 +18,12 @@ export default function Resume() {
   }
 
   return (
-    <div className="Resume">
-      
+    <section className="resume">
+     
+     
+      <div className="column is-9 is-12-mobile resume">
+        <h1 className="title has-text-centered section-title">Resume</h1>
+      </div>
       <Document
         className="document"
         file={file}
@@ -31,12 +35,14 @@ export default function Resume() {
         ))}
       </Document>
       <div className="hero-text">
-        <h3 className="button thisIsTheWay">
+        <h3 className="button thisIsTheWay" data-aos="fade-down">
           <a href="https://dylanshoemaker.github.io/react-portfolio/resume/dylan-shoemaker-resume.pdf">
             Download Resume&emsp;<i className="fad fa-download fa-lg"></i>
-          </a> 
+          </a>
         </h3>
+    
+      
       </div>
-    </div>
+    </section>
   );
 }

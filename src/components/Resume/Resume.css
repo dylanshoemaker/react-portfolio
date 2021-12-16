@@ -1,4 +1,4 @@
-.Resume {
+.resume {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +20,13 @@
   border: 2px solid black;
   /* width: 100%; */
   
+}
+
+
+@media screen and (max-width: 768px) {
+  .resume {
+    background-attachment: fixed;
+  }
 }
 
 @media screen and (max-width: 650px) {

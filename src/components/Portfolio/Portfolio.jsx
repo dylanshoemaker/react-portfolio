@@ -6,7 +6,7 @@ const Portfolio = (props) => {
     <section className="project">
       <div className="section-light my-work" id="my-work">
         <div className="container">
-          <div className="column is-12 project">
+          <div className="column is-12 is-12-mobile project">
             <h1 className="title has-text-centered section-title">My Work</h1>
           </div>
           <div
