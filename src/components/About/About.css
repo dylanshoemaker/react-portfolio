@@ -45,3 +45,8 @@
     height: auto;
   }
 }
+@media (hover: none) {
+  .about-me {
+      background-attachment: initial;
+  }
+}

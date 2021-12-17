@@ -32,3 +32,8 @@
   }
  
 }
+@media (hover: none) {
+   .homeHero {
+       background-attachment: initial;
+   }
+}

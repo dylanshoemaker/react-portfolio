@@ -16,3 +16,8 @@
 .is-multiline {
   padding-top: 5vw;
 }
+@media (hover: none) {
+  .project {
+      background-attachment: initial;
+  }
+}
