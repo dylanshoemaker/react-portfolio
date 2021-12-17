@@ -4,7 +4,6 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <>
       <section className="hero is-large">
         <div className="hero-body">
           <div className="container has-text-centered">
@@ -68,7 +67,6 @@ function Hero() {
           </div>
         </div>
       </section>
-    </>
   );
 }
 

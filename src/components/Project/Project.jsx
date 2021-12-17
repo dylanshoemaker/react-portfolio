@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <>
       {projectData.map((project, i) => (
-        <div className="column is-4">
+        <section className="column is-4">
           <div className="acontent">
             <div className="acontent-overlay"></div>
             <img
@@ -35,7 +35,7 @@ const Project = () => {
               </a>
             </div>
           </div>
-        </div>
+        </section>
       ))}
     </>
   );

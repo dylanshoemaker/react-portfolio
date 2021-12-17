@@ -8,9 +8,9 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import "./Footer.css";
 
-function Footer() {
+const Footer = () => {
   return (
-    <div className="footer pt-6 pb-6">
+    <section className="footer pt-6 pb-6">
       <div className="content has-text-centered pt-2">
         <div className="is-divider"></div>
         <div className="columns about-links">
@@ -83,7 +83,7 @@ function Footer() {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

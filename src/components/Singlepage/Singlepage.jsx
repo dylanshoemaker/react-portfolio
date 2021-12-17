@@ -4,7 +4,7 @@ import Hero from '../Hero';
 import Portfolio from '../Portfolio';
 import Resume from '../Resume';
 
-const Singlepage = (props) => {
+const Singlepage = () => {
 
     return (
         <>

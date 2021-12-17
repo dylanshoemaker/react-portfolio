@@ -6,28 +6,9 @@
   background-image: url(../../assets/images/hero-background.JPG);
   background-attachment: fixed;
   background-size: cover;
-  color: black;
-  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.5), 0 3px 6px rgba(0, 0, 0, 0.5);
   font-family: "Poppins", sans-serif;
 }
 .is-multiline {
   padding-top: 5vw;
-
 }
-@media screen and (max-width: 768px) {
-  .project {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../../assets/images/hero-background.JPG);
-    background-attachment: fixed;
-    background-size: cover;
-    color: black;
-    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16),
-      0 3px 6px rgba(0, 0, 0, 0.23);
-    font-family: "Poppins", sans-serif;
-  }
-}
-
-

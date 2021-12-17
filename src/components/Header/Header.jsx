@@ -6,7 +6,7 @@ const Header = () => {
     document.querySelector('.navbar-menu').classList.toggle('is-active');
   }
   return (
-    <div className="navbar" role="navigation" aria-label="main navigation">
+    <section className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
           <strong>Dylan Shoemaker</strong>
@@ -26,7 +26,7 @@ const Header = () => {
           <Link to="/resume" className="navbar-item" onClick={toggleBurgerMenu}>Resume</Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -2,7 +2,7 @@ import React from 'react';
 import skillsArr from '../../data/iconsData';
 import './Icons.css';
 
-const Icons = (props) => {
+const Icons = () => {
 
     return (
         <section className='Icons'>

@@ -13,7 +13,6 @@
   padding: 0.8rem;
   margin: auto;
   filter: brightness(0.3) invert(0.3);
-  /* flex-basis: 10%; */
 }
 .Icons-icon:hover {
   filter: brightness(1) invert(0);

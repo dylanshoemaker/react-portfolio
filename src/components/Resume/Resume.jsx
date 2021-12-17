@@ -19,10 +19,8 @@ export default function Resume() {
 
   return (
     <section className="resume">
-     
-     
       <div className="column is-9 is-12-mobile resume">
-        <h1 className="title has-text-centered section-title">Resume</h1>
+        <h1 className="title  is-1 has-text-centered section-title">Resume</h1>
       </div>
       <Document
         className="document"

@@ -1,13 +1,15 @@
 import React from "react";
 import Project from "../Project";
 import "./Portfolio.css";
-const Portfolio = (props) => {
+const Portfolio = () => {
   return (
     <section className="project">
       <div className="section-light my-work" id="my-work">
         <div className="container">
           <div className="column is-12 is-12-mobile project">
-            <h1 className="title has-text-centered section-title">My Work</h1>
+            <h1 className="title is-1 has-text-centered section-title">
+              My Work
+            </h1>
           </div>
           <div
             className="columns is-multiline"
