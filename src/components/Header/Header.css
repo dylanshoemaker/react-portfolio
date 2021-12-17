@@ -1,4 +1,5 @@
 .navbar {
   border-bottom: solid 4px #39afe0;
   background-color: #a9bbc8;
+  z-index: -10;
 }
