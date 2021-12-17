@@ -407,11 +407,7 @@ html body {
   max-width: 100%;
   overflow-x: hidden;
 }
-@media (hover: none) {
-  .about-me {
-      background-attachment: initial;
-  }
-}
+
 body:before {
   content: "";
   display: block;
