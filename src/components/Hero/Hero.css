@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
 .hero {
-  background-image: url(../../assets/images/hero-background.JPG);
+  background-image: url(../../assets/images/hero-background.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
   background-attachment: fixed;
   background-size: cover;
   font-family: "Poppins", sans-serif;
