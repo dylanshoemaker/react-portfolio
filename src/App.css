@@ -395,13 +395,13 @@ html body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(./assets/images/hero-background.JPG); 
+  /* background-image: url(./assets/images/hero-background.JPG); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.5), 0 3px 6px rgba(0, 0, 0, 0.5);  
   font-family: "Poppins", sans-serif;
   max-width: 100%;
@@ -411,4 +411,19 @@ html body {
   .about-me {
       background-attachment: initial;
   }
+}
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(./assets/images/hero-background.JPG) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
