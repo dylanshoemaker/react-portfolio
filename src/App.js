@@ -18,7 +18,6 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/resume" component={Resume} />
-        
       </Switch>
       <Icons />
       <Footer/>
