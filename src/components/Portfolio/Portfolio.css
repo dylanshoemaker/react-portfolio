@@ -15,9 +15,19 @@
 }
 .is-multiline {
   padding-top: 5vw;
+  display: contain;
 }
 /* @media (hover: none) {
   .project {
       background-attachment: initial;
   }
 } */
+
+@media screen and (min-width: 769px) {
+  .column.is-4,
+  .column.is-4-tablet {
+    flex: none;
+    width: 33.33333%;
+    display:contents;
+  }
+}

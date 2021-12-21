@@ -1,6 +1,6 @@
 import React from "react";
 import projectData from "../../data/projectData";
-
+import "./Project.css"
 const Project = () => {
   return (
     <>
@@ -16,6 +16,7 @@ const Project = () => {
             />
             <div className="acontent-details fadeIn-bottom ">
               <h3>{project.name}</h3>
+              <h3>{project.info}</h3>
               <a
                 className="project-link"
                 target="_blank"
