@@ -13,7 +13,7 @@
 .Icons-icon {
   width: 6rem;
   padding: 0.8rem;
-  margin: none;
+  margin: unset;
   filter: brightness(0.3) invert(0.3);
 }
 .Icons-icon:hover {
