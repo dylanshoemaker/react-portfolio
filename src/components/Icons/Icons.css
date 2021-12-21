@@ -1,7 +1,12 @@
 .Icons {
   background-color: #449bb3;
+  flex-grow: 1;
   display: flex;
-  flex-flow: row wrap;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 1em;
+  flex-direction: row;
+  align-content: flex-start; /* NEW */
   padding-left: 8vw;
   padding-right: 8vw;
 }
@@ -9,7 +14,7 @@
 .Icons-icon {
   width: 6rem;
   padding: 0.8rem;
-  margin: auto;
+  margin: none;
   filter: brightness(0.3) invert(0.3);
 }
 .Icons-icon:hover {
@@ -21,12 +26,10 @@
     width: 3rem;
     padding: 0.2rem;
   }
- 
 }
 @media screen and (max-width: 575px) {
   .Icons-icon {
     width: 2.125rem;
     padding: 0.2rem;
   }
- 
 }
