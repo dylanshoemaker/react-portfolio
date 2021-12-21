@@ -4,8 +4,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-right: 5vw;
-  margin-left: 5vw;
   flex-direction: row;
   align-content: flex-start; /* NEW */
   padding-left: 8vw;
