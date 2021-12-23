@@ -12,11 +12,12 @@ const About = () => {
             <h1 className="title is-1 has-text-centered section-title">About Me</h1>
           </div>
           <div className="columns is-multiline">
-          <div className="column is-6 left-image " data-aos="fade-right">
+            <div className="column is-6 right-image " data-aos="fade-right">
               <div className="is-rounded">
                 <img
                   src={require("../../assets/images/profile-final.jpg").default}
                   alt={"headshot"}
+                  className="profile"
                 />
               </div>
             </div>
