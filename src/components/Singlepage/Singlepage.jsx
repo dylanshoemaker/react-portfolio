@@ -5,7 +5,7 @@ import Portfolio from '../Portfolio';
 import Resume from '../Resume';
 
 const Singlepage = () => {
-
+    document.title = "Dylan's Portfolio";
     return (
         <>
         <Hero />

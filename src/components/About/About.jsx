@@ -3,7 +3,6 @@ import "./About.css";
 
 
 const About = () => {
-  document.title = "About";
 
   return (
     <section className="about-me">
