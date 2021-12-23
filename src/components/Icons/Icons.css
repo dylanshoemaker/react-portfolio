@@ -1,8 +1,7 @@
 .Icons {
   background-color: #449bb3;
-  flex-grow: 1;
-  flex-shrink: 0;
   display: flex;
+  flex: 0 1 auto;
   justify-content: center;
  
   flex-direction: row;
