@@ -16,7 +16,12 @@
 .thisIsTheWay {
   margin: 2vh;
 }
-
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .document {
   flex-direction: row;
   margin-top: 2vh;
