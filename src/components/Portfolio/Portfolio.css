@@ -22,7 +22,9 @@
       background-attachment: initial;
   }
 } */
-
+.columns:last-child {
+  margin-bottom: .75rem;
+}
 @media screen and (min-width: 769px) {
   .column.is-4,
   .column.is-4-tablet {
