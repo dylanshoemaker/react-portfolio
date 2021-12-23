@@ -4,8 +4,8 @@
   flex: 0 1 auto;
   justify-content: center;
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center; /* NEW */
+  flex-wrap: wrap; 
+  align-items: center; /* This line fixed extra space on the ipad*/
   padding-left: 8vw;
   padding-right: 8vw;
 }
