@@ -3,9 +3,9 @@
   display: flex;
   flex: 0 1 auto;
   justify-content: center;
- 
   flex-direction: row;
-  align-content: flex-start; /* NEW */
+  flex-wrap: wrap;
+  align-items: center; /* NEW */
   padding-left: 8vw;
   padding-right: 8vw;
 }
