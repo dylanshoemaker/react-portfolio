@@ -1,6 +1,10 @@
 .navbar {
   border-bottom: solid 4px #39afe0;
-  background-color: #a9bbc8;
+  background-color: #168cdf;
+}
+.navbar-menu {
+  border-bottom: solid 4px #168cdf;
+  background-color: #168cdf;
 }
 /* .navbar-item, .navbar-link {
   padding: 0.5rem 1.75rem;
