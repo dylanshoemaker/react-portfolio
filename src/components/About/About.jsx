@@ -8,7 +8,7 @@ const About = () => {
     <section className="about-me">
       <div className="section-light " id="about-me">
         <div className="container">
-          <div className="column is-12 about-me">
+          <div className="column is-12 about-me white">
             <h1 className="title is-1 has-text-centered section-title">About Me</h1>
           </div>
           <div className="columns is-multiline">

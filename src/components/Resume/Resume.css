@@ -38,6 +38,9 @@
     margin-bottom: 25vw;
   }
 }
+.white {
+  background-color: whitesmoke;
+}
 /* @media (hover: none) {
   .resume {
       background-attachment: initial;

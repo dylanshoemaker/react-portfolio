@@ -19,7 +19,7 @@ export default function Resume() {
 
   return (
     <section className="resume">
-      <div className="column is-9 is-12-mobile resume">
+      <div className="column is-9 is-12-mobile resume white">
         <h1 className="title  is-1 has-text-centered section-title">Resume</h1>
       </div>
       <div className="container" data-aos="fade-down">
