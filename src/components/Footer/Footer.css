@@ -1,3 +1,6 @@
+/* section {
+  justify-content: space-evenly;
+} */
 .font-awesome {
   color: ghostwhite;
   font-size: 30px;
@@ -11,5 +14,5 @@
   position: sticky;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
 }
