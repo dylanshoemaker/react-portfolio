@@ -14,7 +14,7 @@ const Header = () => {
     }
   }
   return (
-    <section>
+    <section className="header">
       <div>
         <Link to="/" className="title is-1 is-size-3-mobile">Dylan Shoemaker</Link>
       </div>
