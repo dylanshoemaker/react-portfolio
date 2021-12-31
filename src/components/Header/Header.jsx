@@ -1,30 +1,46 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "hamburgers";
 import "./Header.css";
 const Header = () => {
-  function toggleBurgerMenu() {
-    document.querySelector('.navbar-menu').classList.toggle('is-active');
+  function hamburger() {
+    let myElement = document.querySelector(".hamburger");
+    if (myElement.classList.contains('is-active')) {
+      document.getElementById("mySidebar").style.width = "0";
+      document.querySelector(".hamburger").classList.toggle("is-active");
+    } else {
+      myElement.classList.toggle("is-active");
+      document.getElementById("mySidebar").style.width = "250px";
+    }
   }
   return (
-    <section className="navbar" role="navigation" aria-label="main navigation">
-      <div className="navbar-brand">
-        <Link to="/" className="navbar-item">
-          <strong>Dylan Shoemaker</strong>
-        </Link>
-        <div role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic"
-          onClick={toggleBurgerMenu}>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </div>
+    <section>
+      <div>
+        <Link to="/" className="title is-1 is-size-3-mobile">Dylan Shoemaker</Link>
       </div>
-      
-      <div id="navbarBasic" className="navbar-menu">
-        <div className="navbar-end">
-          <Link to="/about" className="navbar-item" onClick={toggleBurgerMenu}>About</Link>
-          <Link to="/portfolio" className="navbar-item" onClick={toggleBurgerMenu}>Portfolio</Link>
-          <Link to="/resume" className="navbar-item" onClick={toggleBurgerMenu}>Resume</Link>
-        </div>
+      <button
+        className="hamburger hamburger--emphatic openbtn"
+        type="button"
+        id="maint"
+        onClick={hamburger}
+      >
+        <span className="hamburger-box">
+          <span className="hamburger-inner"></span>
+        </span>
+      </button>
+      <div id="mySidebar" className="sidebar" onClick={hamburger}>
+      <Link to="/" className="button is-link" >
+          Home
+        </Link>
+        <Link to="/about" className="button is-link" >
+          About
+        </Link>
+        <Link to="/portfolio" className="button is-link" >
+          Portfolio
+        </Link>
+        <Link to="/resume" className="button is-link" >
+          Resume
+        </Link>
       </div>
     </section>
   );
