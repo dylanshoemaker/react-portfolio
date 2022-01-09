@@ -15,9 +15,9 @@ function App() {
       <Header/>
       <Switch>
         <Route exact path='/' component={Singlepage}/>
-        <Route path="/about" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/resume" component={Resume} />
+        <Route path="/about/" component={About} />
+        <Route path="/portfolio/" component={Portfolio} />
+        <Route path="/resume/" component={Resume} />
       </Switch>
       <Icons />
       <Footer/>
