@@ -4,7 +4,7 @@ import Hero from '../Hero';
 import Portfolio from '../Portfolio';
 import Resume from '../Resume';
 
-const Singlepage = () => {
+const SinglePage = () => {
     document.title = "Dylan's Portfolio";
     return (
         <>
@@ -16,4 +16,4 @@ const Singlepage = () => {
     );
 };
 
-export default Singlepage;
+export default SinglePage;

@@ -8,13 +8,13 @@ import Resume from "./components/Resume";
 
 import Header from "./components/Header";
 import Icons from './components/Icons';
-import Singlepage from "./components/Singlepage";
+import SinglePage from "./components/SinglePage";
 function App() {
   return (
     <Router basename="/react-portfolio">
       <Header/>
       <Switch>
-        <Route exact path='/' component={Singlepage}/>
+        <Route exact path='/' component={SinglePage}/>
         <Route path="/about/" component={About} />
         <Route path="/portfolio/" component={Portfolio} />
         <Route path="/resume/" component={Resume} />

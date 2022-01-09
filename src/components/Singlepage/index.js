@@ -1,1 +1,1 @@
-export { default } from './Singlepage';
+export { default } from './SinglePage';
