@@ -1,34 +1,32 @@
-.Icons {
+.icons {
   background-color: #449bb3;
   display: flex;
-  /* flex: 0 1 auto; */
   flex: auto;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap; 
   align-items: center; /* This line fixed extra space on the ipad*/
-  /* padding-left: 8vw;
-  padding-right: 8vw; */
+
 }
 
-.Icons-icon {
+.icons-icon {
   width: 6rem;
   padding: 0.8rem;
   margin: unset;
   filter: brightness(0.3) invert(0.3);
 }
-.Icons-icon:hover {
+.icons-icon:hover {
   filter: brightness(1) invert(0);
 }
 
 @media screen and (max-width: 768px) {
-  .Icons-icon {
+  .icons-icon {
     width: 3rem;
     padding: 0.2rem;
   }
 }
 @media screen and (max-width: 575px) {
-  .Icons-icon {
+  .icons-icon {
     width: 2.125rem;
     padding: 0.2rem;
   }

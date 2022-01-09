@@ -4,8 +4,7 @@ import "./Hero.css";
 
 function Hero() {
   return (
-      <section className="hero is-medium">
-        
+      <section className="hero is-medium" id="hero">
           <div className="container hero-body has-text-centered">
             <h1 className="subtitle profession is-size-4-mobile">Hello there, I'm</h1>
             <h2 className="title is-size-4-mobile">Dylan</h2>

@@ -5,10 +5,10 @@ import "./Icons.css";
 const Icons = () => {
   return (
     <section>
-      <div className="Icons">
+      <div className="icons">
         {skillsArr.map((skillData) => (
           <img
-            className="Icons-icon"
+            className="icons-icon"
             src={skillData.src}
             alt={skillData.alt}
             key={skillData.name}

@@ -19,7 +19,7 @@ const Header = () => {
         <Link to="/" className="title is-1 is-size-3-mobile">Dylan Shoemaker</Link>
       </div>
       <button
-        className="hamburger hamburger--emphatic openbtn"
+        className="hamburger hamburger--emphatic"
         type="button"
         id="maint"
         onClick={hamburger}
