@@ -1,15 +1,15 @@
 import React from "react";
 import "./About.css";
 
-
 const About = () => {
-
   return (
     <section className="about-me">
       <div className="section-light " id="about-me">
         <div className="container">
           <div className="column is-12 about-me white">
-            <h1 className="title is-1 has-text-centered section-title">About Me</h1>
+            <h1 className="title is-1 has-text-centered section-title">
+              About Me
+            </h1>
           </div>
           <div className="columns is-multiline">
             <div className="column is-6 right-image " data-aos="fade-right">
@@ -28,22 +28,15 @@ const About = () => {
               <p className="is-larger">
                 &emsp;&emsp;
                 <strong>
-                  Hello, thank you for taking the time to look at my portfolio!
-                  My name is Dylan Shoemaker and I love solving puzzles. I've
-                  always wanted to know how something works, how it can be
-                  broken down into individual pieces and how it can be put back
-                  together.
+                  Hello, my name is Dylan Shoemaker and I am a Full-stack web
+                  developer with a background in Health Insurance Sales
+                  (Medicare) and an appetite for continuous learning,
+                  collaboration, and solving complex problems.
                 </strong>
               </p>
               <br />
               <p>
-                I’m an avid fan of technology and software and my goal in life
-                is to learn as much as I can about the technology that fuels how
-                we interact with the world around us. I've recently obtained a
-                Certificate in Full Stack Web Development from the University of
-                Utah and I'm currently looking for any career opportunities with
-                a company thats goal is to make a difference or to solve a
-                problem.
+                I'm an Innovative problem-solver who is passionate about learning and growing as a developer. My core strengths are in creativity, teamwork, task management, researching efficiently and debugging. I recently earned a certificate in Full Stack Web Development from the University of Utah Coding Boot Camp. I'm currently looking for any career opportunities with a company thats goal is to make a difference or to solve a problem.
               </p>
               <br />
             </div>
@@ -52,6 +45,6 @@ const About = () => {
       </div>
     </section>
   );
-}
+};
 
 export default About;

@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "hamburgers";
 import "./Header.css";
+import Icon from "../../assets/images/icons/favicon-32x32.png"
 const Header = () => {
   function hamburger() {
     let myElement = document.querySelector(".hamburger");
-    if (myElement.classList.contains('is-active')) {
+    if (myElement.classList.contains("is-active")) {
       document.getElementById("mySidebar").style.width = "0";
       document.querySelector(".hamburger").classList.toggle("is-active");
     } else {
@@ -15,8 +16,12 @@ const Header = () => {
   }
   return (
     <section className="header">
-      <div>
-        <Link to="/" className="title is-1 is-size-3-mobile">Dylan Shoemaker</Link>
+      <div className="name">
+      
+        <Link to="/" className="title is-1 ">
+        <img className="asdf" alt="/" src={Icon}/>
+         Dylan Shoemaker
+        </Link>
       </div>
       <button
         className="hamburger hamburger--emphatic"
@@ -29,16 +34,16 @@ const Header = () => {
         </span>
       </button>
       <div id="mySidebar" className="sidebar" onClick={hamburger}>
-      <Link to="/" className="button is-link" >
+        <Link to="/" className="button is-link">
           Home
         </Link>
-        <Link to="/about" className="button is-link" >
+        <Link to="/about" className="button is-link">
           About
         </Link>
-        <Link to="/portfolio" className="button is-link" >
+        <Link to="/portfolio" className="button is-link">
           Portfolio
         </Link>
-        <Link to="/resume" className="button is-link" >
+        <Link to="/resume" className="button is-link">
           Resume
         </Link>
       </div>
