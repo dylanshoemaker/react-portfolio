@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import About from "./components/About";
 import Footer from "./components/Footer";
@@ -11,7 +11,7 @@ import Icons from './components/Icons';
 import SinglePage from "./components/SinglePage";
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Header/>
       <Switch>
         <Route exact path='/' component={SinglePage}/>
@@ -22,7 +22,7 @@ function App() {
       </Switch>
       <Icons />
       <Footer/>
-    </Router>
+    </HashRouter>
   );
 }
 
