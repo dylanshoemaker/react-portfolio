@@ -11,7 +11,7 @@ import Icons from './components/Icons';
 import SinglePage from "./components/SinglePage";
 function App() {
   return (
-    <Router basename="/react-portfolio">
+    <Router basename={process.env.PUBLIC_URL}>
       <Header/>
       <Switch>
         <Route exact path='/' component={SinglePage}/>
