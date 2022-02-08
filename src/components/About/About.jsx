@@ -25,7 +25,7 @@ const About = () => {
               className="column is-6 has-vertically-aligned-content"
               data-aos="fade-left"
             >
-              <p className="is-larger">
+              <p className="is-larger has-text-justified	">
                 &emsp;&emsp;
                 <strong>
                   Hello, my name is Dylan Shoemaker and I am a Full-stack web
@@ -35,7 +35,7 @@ const About = () => {
                 </strong>
               </p>
               <br />
-              <p>
+              <p className="has-text-justified	">
                 I'm an Innovative problem-solver who is passionate about
                 learning and growing as a person and as a developer. My core
                 strengths are in creativity, teamwork, task management,
