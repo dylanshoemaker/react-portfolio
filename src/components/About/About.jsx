@@ -36,7 +36,14 @@ const About = () => {
               </p>
               <br />
               <p>
-                I'm an Innovative problem-solver who is passionate about learning and growing as a developer. My core strengths are in creativity, teamwork, task management, researching efficiently and debugging. I recently earned a certificate in Full Stack Web Development from the University of Utah Coding Boot Camp. I'm currently looking for any career opportunities with a company thats goal is to make a difference or to solve a problem.
+                I'm an Innovative problem-solver who is passionate about
+                learning and growing as a person and as a developer. My core
+                strengths are in creativity, teamwork, task management,
+                researching efficiently, communication, management and
+                debugging. I recently earned a certificate in Full Stack Web
+                Development from the University of Utah Coding Boot Camp. I'm
+                currently looking for any career opportunities with a company
+                thats goal is to make a difference or to solve a problem.
               </p>
               <br />
             </div>
