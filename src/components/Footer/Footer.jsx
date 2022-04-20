@@ -36,7 +36,7 @@ const Footer = () => {
             </p>
             <p className="subheading is-size-5">
               {" "}
-              <Link target="_blank" to="/resume/dylan-shoemaker.pdf">
+              <Link target="_blank" to="/resume/dylanShoemakerResume.pdf">
                 Download
               </Link>
             </p>
