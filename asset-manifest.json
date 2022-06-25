@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.3e5be1b7.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.3437e665.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.3437e665.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.b03e26d5.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.b03e26d5.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.f11a2efb.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.f11a2efb.js.map",
     "static/css/2.075d1af1.chunk.css": "/react-portfolio/static/css/2.075d1af1.chunk.css",
@@ -30,7 +30,7 @@
     "static/media/mongodb.b14f79af.svg": "/react-portfolio/static/media/mongodb.b14f79af.svg",
     "static/media/mysql.7a15f595.svg": "/react-portfolio/static/media/mysql.7a15f595.svg",
     "static/media/node.ca7d5097.svg": "/react-portfolio/static/media/node.ca7d5097.svg",
-    "static/media/profile-final.jpg": "/react-portfolio/static/media/profile-final.04c77ffb.jpg",
+    "static/media/profile-pic.jpg": "/react-portfolio/static/media/profile-pic.d0096ff7.jpg",
     "static/media/react.9e9c78fa.svg": "/react-portfolio/static/media/react.9e9c78fa.svg",
     "static/media/show-me-what-you-got-walkthrough.5a51728c.gif": "/react-portfolio/static/media/show-me-what-you-got-walkthrough.5a51728c.gif"
   },
@@ -39,6 +39,6 @@
     "static/css/2.075d1af1.chunk.css",
     "static/js/2.c893a355.chunk.js",
     "static/css/main.3e5be1b7.chunk.css",
-    "static/js/main.3437e665.chunk.js"
+    "static/js/main.b03e26d5.chunk.js"
   ]
 }
