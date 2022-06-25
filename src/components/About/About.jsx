@@ -15,7 +15,7 @@ const About = () => {
             <div className="column is-6 right-image " data-aos="fade-right">
               <div className="is-rounded">
                 <img
-                  src={require("../../assets/images/profile-final.jpg").default}
+                  src={require("../../assets/images/profile-pic.jpg").default}
                   alt={"headshot"}
                   className="profile"
                 />
