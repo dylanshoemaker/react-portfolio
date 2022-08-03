@@ -9,7 +9,7 @@ const options = {
 
 export default function Resume() {
   const [file] = useState(
-    "https://dylanshoemaker.github.io/react-portfolio/resume/dylanShoemakerResume.pdf"
+    "https://dylanshoemaker.github.io/react-portfolio/resume/resume_dylan_shoemaker.pdf"
   );
   const [numPages, setNumPages] = useState(null);
 
@@ -39,7 +39,7 @@ export default function Resume() {
             </Document>
             <div className="hero-text">
               <h3 className="button thisIsTheWay">
-                <a href="https://dylanshoemaker.github.io/react-portfolio/resume/dylanShoemakerResume.pdf">
+                <a href="https://dylanshoemaker.github.io/react-portfolio/resume/resume_dylan_shoemaker.pdf">
                   Download Resume&emsp;<i className="fad fa-download fa-lg"></i>
                 </a>
               </h3>
